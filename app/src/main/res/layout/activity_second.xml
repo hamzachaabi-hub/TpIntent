@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/secondNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom"
+        android:textStyle="bold"
+        android:textColor="#778342"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/SecondDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Date de Naissance"
+        android:textColor="#9575CD"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/SecondMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail"
+        android:textColor="#FF5722"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/secondClasse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Classe"
+        android:textColor="#E91E63"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shareit"
+        android:layout_width="194dp"
+        android:layout_height="81dp"
+        android:text="Share It ?"
+        app:icon="@drawable/share"/>
+
+
+</LinearLayout>
